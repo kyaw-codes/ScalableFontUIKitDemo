@@ -49,6 +49,10 @@ class ViewController: UIViewController {
         // configure orderNowButton
 //        btnOrderNow.titleLabel?.font = .systemFont(ofSize: 15, weight: .semibold)
         btnOrderNow.titleLabel?.font = .preferredFont(forTextStyle: .subheadline)
+        
+        // opt-in to update font size on device content size category changes
+        [titleLabel, priceLabel, descriptionTitleLabel, descriptionLabel, btnOrderNow.titleLabel]
+            .forEach { $0?.adjustsFontForContentSizeCategory = true }
 
         // configure stackview spacing
         descriptionStackView.setCustomSpacing(12, after: priceLabel)
