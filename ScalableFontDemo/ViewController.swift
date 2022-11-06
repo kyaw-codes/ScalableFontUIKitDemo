@@ -30,20 +30,25 @@ class ViewController: UIViewController {
 
     private func configureViews() {
         // configure titleLabel
-        titleLabel.font = .systemFont(ofSize: 28)
+//        titleLabel.font = .systemFont(ofSize: 28)
+        titleLabel.font = .preferredFont(forTextStyle: .title1)
         
         // configure priceLabel
-        priceLabel.font = .systemFont(ofSize: 15, weight: .semibold)
+//        priceLabel.font = .systemFont(ofSize: 15, weight: .semibold)
+        priceLabel.font = .preferredFont(forTextStyle: .subheadline)
         
         // configure descriptionTitleLabel
-        descriptionTitleLabel.font = .systemFont(ofSize: 20)
+//        descriptionTitleLabel.font = .systemFont(ofSize: 20)
+        descriptionTitleLabel.font = .preferredFont(forTextStyle: .title3)
 
         // configure descriptionLabel
-        descriptionLabel.font = .systemFont(ofSize: 17)
+//        descriptionLabel.font = .systemFont(ofSize: 17)
+        descriptionLabel.font = .preferredFont(forTextStyle: .body)
         descriptionLabel.text = descriptionText
 
         // configure orderNowButton
-        btnOrderNow.titleLabel?.font = .systemFont(ofSize: 15, weight: .semibold)
+//        btnOrderNow.titleLabel?.font = .systemFont(ofSize: 15, weight: .semibold)
+        btnOrderNow.titleLabel?.font = .preferredFont(forTextStyle: .subheadline)
 
         // configure stackview spacing
         descriptionStackView.setCustomSpacing(12, after: priceLabel)
