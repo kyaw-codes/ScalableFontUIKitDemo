@@ -37,11 +37,11 @@ class ViewController: UIViewController {
         
         // configure descriptionTitleLabel
         descriptionTitleLabel.font = .systemFont(ofSize: 20)
-        descriptionLabel.text = descriptionText
 
         // configure descriptionLabel
         descriptionLabel.font = .systemFont(ofSize: 17)
-        
+        descriptionLabel.text = descriptionText
+
         // configure orderNowButton
         btnOrderNow.titleLabel?.font = .systemFont(ofSize: 15, weight: .semibold)
 
