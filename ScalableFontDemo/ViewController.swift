@@ -40,6 +40,7 @@ class ViewController: UIViewController {
         descriptionLabel.font = .systemFont(ofSize: 17)
         
         // configure orderNowButton
+        btnOrderNow.titleLabel?.font = .systemFont(ofSize: 15, weight: .semibold)
 
         // configure stackview spacing
         descriptionStackView.setCustomSpacing(12, after: priceLabel)
