@@ -25,6 +25,7 @@
 		C8AF75302916D7F800CDE900 /* PlayfairDisplay-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8AF75222916D78900CDE900 /* PlayfairDisplay-ExtraBold.ttf */; };
 		C8AF75312916D7F800CDE900 /* PlayfairDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8AF75242916D78900CDE900 /* PlayfairDisplay-Regular.ttf */; };
 		C8AF75322916D7F800CDE900 /* PlayfairDisplay-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8AF751D2916D78900CDE900 /* PlayfairDisplay-Black.ttf */; };
+		C8B25EBA2917D8FA0047ACC9 /* CustomFontSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B25EB92917D8FA0047ACC9 /* CustomFontSupport.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		C8AF75242916D78900CDE900 /* PlayfairDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Regular.ttf"; sourceTree = "<group>"; };
 		C8AF75252916D78900CDE900 /* PlayfairDisplay-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-SemiBold.ttf"; sourceTree = "<group>"; };
 		C8AF75262916D78900CDE900 /* PlayfairDisplay-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		C8B25EB92917D8FA0047ACC9 /* CustomFontSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFontSupport.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				C8AF75042916CD4300CDE900 /* AppDelegate.swift */,
 				C8AF75062916CD4300CDE900 /* SceneDelegate.swift */,
 				C8AF75082916CD4300CDE900 /* ViewController.swift */,
+				C8B25EB92917D8FA0047ACC9 /* CustomFontSupport.swift */,
 				C8AF750A2916CD4300CDE900 /* Main.storyboard */,
 				C8AF750D2916CD4600CDE900 /* Assets.xcassets */,
 				C8AF750F2916CD4600CDE900 /* LaunchScreen.storyboard */,
@@ -195,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8AF75092916CD4300CDE900 /* ViewController.swift in Sources */,
+				C8B25EBA2917D8FA0047ACC9 /* CustomFontSupport.swift in Sources */,
 				C8AF75052916CD4300CDE900 /* AppDelegate.swift in Sources */,
 				C8AF75072916CD4300CDE900 /* SceneDelegate.swift in Sources */,
 			);
